@@ -9,6 +9,6 @@ public class DemoController {
 
 	@RequestMapping("/{name}")
 	public String index(@PathVariable String name) {
-		return "Hello " + name;
+		return "Welcome back " + name;
 	}
 }
